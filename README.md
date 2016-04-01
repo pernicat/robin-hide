@@ -24,6 +24,12 @@ The hide user list does not carry over after merges. To get a list of everyone y
 h.push("user1", "user2", "etc")
 ```
 
+Someone also created an Autovoter hider.
+
+```javascript
+setInterval(function(){$(".robin-message--message:contains(Autovoter)").parent().hide()},100)
+```
+
 ## TODO
 
 [ ] Find better function than "setInterval" (makes ui jerky)
