@@ -24,10 +24,16 @@ The hide user list does not carry over after merges. To get a list of everyone y
 h.push("user1", "user2", "etc")
 ```
 
-Someone also created an Autovoter hider.
+This script will hide messages containing the given content (default is to block autovoter spam and things with "卐").
 
 ```javascript
-setInterval(function(){$(".robin-message--message:contains(Autovoter)").parent().hide()},100)
+h_m=['Autovoter', '卐'];setInterval(function(){$.each(h_m,function(i,v){$(".robin-message--message:contains("+v+")").parent().remove()}},100)
+```
+
+To add new words/content to the block list by typing this into the developer console.
+
+```javascript
+h_m.push("content to block here", "more content to block")
 ```
 
 ## TODO
