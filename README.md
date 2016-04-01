@@ -15,7 +15,7 @@ h.push("username")
 
 You can also run this script to put a "block" button by each user. (only works with old messages)
 ```javascript
-$('.robin--username').before($('<button>block</button>').click(function(){h.push($(this).siblings('.robin--username').text())}));
+$('#robinChatWindow .robin--username').before($('<button>block</button>').click(function(){h.push($(this).siblings('.robin--username').text())}));
 ```
 
 The hide user list does not carry over after merges. To get a list of everyone you added type `h` in the developer console. You can then use that list to share or carry over to the next merge.
