@@ -39,7 +39,7 @@
 
                 $(this).find('.robin--username').before(del);
 
-                console.log('adding message for', username);
+                //console.log('adding message for', username);
 
                 filteredMessages.append($(this));
             }
