@@ -1,6 +1,14 @@
 # robin-hide
 Quick dirty script for hiding users on reddit.com/robin
 
+## new Script file way
+
+I have created a script that can be run from Tampermonkey or similar. It is smother and has delete buttons by user post. It is a work in progress. scrolling is broken.
+
+[robin-hide.js](robin-hide.js)
+
+## Old developer console way
+
 Copy and paste this into the developer console.
 
 ```javascript
@@ -35,3 +43,4 @@ setInterval(function(){$(".robin-message--message:contains(Autovoter)").parent()
 - [ ] Find better function than "setInterval" (makes ui jerky)
 - [ ] This could use lots of improvements and is not very user friendly. 
 - [ ] Fix block button to appear on new messages.
+- [ ] Fix scolling.
