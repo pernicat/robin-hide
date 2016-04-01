@@ -32,6 +32,6 @@ setInterval(function(){$(".robin-message--message:contains(Autovoter)").parent()
 
 ## TODO
 
-[ ] Find better function than "setInterval" (makes ui jerky)
-[ ] This could use lots of improvements and is not very user friendly. 
-[ ] Fix block button to appear on new messages.
+- [ ] Find better function than "setInterval" (makes ui jerky)
+- [ ] This could use lots of improvements and is not very user friendly. 
+- [ ] Fix block button to appear on new messages.
