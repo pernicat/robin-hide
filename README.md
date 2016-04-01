@@ -4,7 +4,7 @@ Quick dirty script for hiding users on reddit.com/robin
 Copy and paste this into the developer console.
 
 ```javascript
-var h=[];setInterval(function(){$.each(h,function(i,v){$('.robin--username:contains('+v+')').parent().hide();});},100);
+var h=[];setInterval(function(){$.each(h,function(i,v){$('.robin--username:contains('+v+')').parent().remove();});},100);
 ```
 
 Add users to hide by typing this in the developer console (replace username with the name of the user to hide).
