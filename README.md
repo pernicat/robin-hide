@@ -27,7 +27,7 @@ h.push("user1", "user2", "etc")
 This script will hide messages containing the given content (default is to block autovoter spam and things with "卐").
 
 ```javascript
-h_m=['Autovoter', '卐'];setInterval(function(){$.each(h_m,function(i,v){$(".robin-message--message:contains("+v+")").parent().remove()}},100)
+h_m=['Autovoter', '卐'];setInterval(function(){$.each(h_m,function(i,v){$(".robin-message--message:contains("+v+")").parent().remove()})},100)
 ```
 
 To add new words/content to the block list by typing this into the developer console.
