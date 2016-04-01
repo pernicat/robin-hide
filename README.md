@@ -24,10 +24,17 @@ The hide user list does not carry over after merges. To get a list of everyone y
 h.push("user1", "user2", "etc")
 ```
 
-Someone also created an Autovoter hider.
+This script removes autovoters and the actual vote commands:
 
 ```javascript
-setInterval(function(){$(".robin-message--message:contains(Autovoter)").parent().hide()},100)
+window.setInterval(
+  function(){
+    $(".robin-message--message:contains(Autovoter)").parent().remove();
+    $(".robin-message--message:contains(Robin-Grow)").parent().remove();
+    $(".robin-message--message:contains(voted to GROW)").parent().remove();
+    $(".robin-message--message:contains(voted to STAY)").parent().remove();
+    $(".robin-message--message:contains(voted to ABANDON)").parent().remove();
+  },1000);
 ```
 
 ## TODO
