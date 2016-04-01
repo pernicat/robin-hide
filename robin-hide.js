@@ -17,7 +17,7 @@
     
     robinMessages.after(filteredMessages).hide();
     
-    setInterval(function() {
+    $("#robinChatMessageList").bind('DOMNodeInserted', function(){
         
         robinMessages.find('.robin-message').each(function() {
             var username = $(this).find('.robin--username').text().trim();
@@ -43,6 +43,6 @@
             }
         });
         
-    }, 100);
+    });
 
 })();
