@@ -10,9 +10,16 @@ var h=[];setInterval(function(){$.each(h,function(i,v){$('.robin--username:conta
 Add users to hide by typing this in the developer console (replace username with the name of the user to hide).
 
 ```javascript
-h.push('username')
+h.push("username")
+```
+
+The hide user list does not carry over after merges. To get a list of everyone you added type `h` in the developer console. You can then use that list to share or carry over to the next merge.
+
+```javascript
+h.push("user1", "user2", "etc")
 ```
 
 ## TODO
 
-[ ] This could use lots of improvements and is not very user friendly. Just a quick and dirty version to hide users who spam.
+[ ] Find better function than "setInterval" (makes ui jerky)
+[ ] This could use lots of improvements and is not very user friendly. 
