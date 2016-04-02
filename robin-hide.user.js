@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  Filter Robin Spam
 // @author       Tony Pernicano <pernicat@gmail.com>
-// @match        https://www.reddit.com/robin/
+// @match        https://www.reddit.com/robin*
 // @grant        none
 // ==/UserScript==
 
