@@ -74,3 +74,4 @@ Scripts that other users have created. If you know of a usefull script I would b
 - https://www.reddit.com/r/joinrobin/comments/4cz32p/comprehensive_spamblocking_scripts_for_web/
 - https://github.com/keythkatz/Robin-Autovoter/
 - https://www.reddit.com/r/joinrobin/comments/4czbr7/how_to_muteignore_spammers/
+- https://ghostbin.com/paste/hy3xp
