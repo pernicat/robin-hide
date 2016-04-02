@@ -75,3 +75,4 @@ Scripts that other users have created. If you know of a usefull script I would b
 - https://github.com/keythkatz/Robin-Autovoter/
 - https://www.reddit.com/r/joinrobin/comments/4czbr7/how_to_muteignore_spammers/
 - https://ghostbin.com/paste/hy3xp
+- https://gist.github.com/tuvior/deb07d128fa85308ac10bd08f3864c3e
