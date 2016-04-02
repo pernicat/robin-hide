@@ -1,6 +1,8 @@
 # robin-hide
 Quick dirty script for hiding users on reddit.com/robin
 
+Contributions Welcome
+
 ## New TamperMonkey Script
 
 I have created a script that can be run from TamperMonkey or similar. It is smother and has delete buttons by user post. It is a work in progress.
@@ -54,7 +56,17 @@ h_m.push("Autovoter", "Robin-Grow", "voted to GROW", "voted to STAY", "voted to 
 
 ## TODO
 
-- [ ] Find better function than "setInterval" (makes ui jerky)
+- [x] Find better function than "setInterval" (makes ui jerky)
 - [ ] This could use lots of improvements and is not very user friendly.
-- [ ] Fix block button to appear on new messages.
-- [ ] Fix scolling.
+- [x] Fix block button to appear on new messages.
+- [x] Fix scolling.
+ 
+## Other usefull scripts
+
+Scripts that other users have created. If you know of a usefull script I would be happy to add it to the list.
+
+- https://github.com/gardner/robin
+- https://github.com/vartan/robin-grow
+- http://pastebin.com/qMjsyYG0
+- https://www.reddit.com/r/joinrobin/comments/4cz32p/comprehensive_spamblocking_scripts_for_web/
+
