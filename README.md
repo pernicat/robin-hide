@@ -3,6 +3,10 @@ Quick dirty script for hiding users on reddit.com/robin
 
 Contributions Welcome
 
+## Use robin-grow instead.
+
+Recomend using [robin-grow](https://github.com/vartan/robin-grow) instead of this script. It has more features and is better supported. 
+
 ## New TamperMonkey Script
 
 I have created a script that can be run from TamperMonkey or similar. It is smother and has delete buttons by user post. It is a work in progress.
@@ -66,7 +70,7 @@ h_m.push("Autovoter", "Robin-Grow", "voted to GROW", "voted to STAY", "voted to 
 Scripts that other users have created. If you know of a usefull script I would be happy to add it to the list.
 
 - https://github.com/gardner/robin
-- https://github.com/vartan/robin-grow
 - http://pastebin.com/qMjsyYG0
 - https://www.reddit.com/r/joinrobin/comments/4cz32p/comprehensive_spamblocking_scripts_for_web/
 - https://github.com/keythkatz/Robin-Autovoter/
+- https://www.reddit.com/r/joinrobin/comments/4czbr7/how_to_muteignore_spammers/
