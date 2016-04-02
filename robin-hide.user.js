@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  Filter Robin Spam
 // @author       Tony Pernicano <pernicat@gmail.com>
-// @match        https://www.reddit.com/robin/
+// @match        https://www.reddit.com/robin*
 // @grant        none
 // ==/UserScript==
 
@@ -42,9 +42,20 @@
                 //console.log('adding message for', username);
 
                 filteredMessages.append($(this));
+            } else {
+                // TODO not sure if this makes any difference
+                $(this).remove();
             }
         });
 
     });
+
+    setInterval(function(){
+      var n = 0;
+        while(filteredMessages[0].childNodes.length > 1000) {
+            //console.log('reaper', filteredMessages.children().length);
+            filteredMessages[0].firstChild.remove();
+        }
+    }, 5000);
 
 })();
