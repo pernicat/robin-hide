@@ -1,11 +1,14 @@
 # robin-hide
 Quick dirty script for hiding users on reddit.com/robin
 
-## new Script file way
+## New TamperMonkey Script
 
-I have created a script that can be run from Tampermonkey or similar. It is smother and has delete buttons by user post. It is a work in progress. scrolling is broken.
+I have created a script that can be run from TamperMonkey or similar. It is smother and has delete buttons by user post. It is a work in progress.
 
-[robin-hide.js](robin-hide.js)
+
+1. Install [TamperMonkey](https://tampermonkey.net/)
+2. Install [robin-hide.js](https://github.com/pernicat/robin-hide/raw/master/robin-hide.user.js)
+3. Reload the chat.
 
 ## Old developer console way
 
