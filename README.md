@@ -60,7 +60,7 @@ h_m.push("Autovoter", "Robin-Grow", "voted to GROW", "voted to STAY", "voted to 
 - [ ] This could use lots of improvements and is not very user friendly.
 - [x] Fix block button to appear on new messages.
 - [x] Fix scolling.
- 
+
 ## Other usefull scripts
 
 Scripts that other users have created. If you know of a usefull script I would be happy to add it to the list.
@@ -69,4 +69,4 @@ Scripts that other users have created. If you know of a usefull script I would b
 - https://github.com/vartan/robin-grow
 - http://pastebin.com/qMjsyYG0
 - https://www.reddit.com/r/joinrobin/comments/4cz32p/comprehensive_spamblocking_scripts_for_web/
-
+- https://github.com/keythkatz/Robin-Autovoter/
