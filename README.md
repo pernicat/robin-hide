@@ -68,4 +68,5 @@ Scripts that other users have created. If you know of a usefull script I would b
 - https://github.com/gardner/robin
 - https://github.com/vartan/robin-grow
 - http://pastebin.com/qMjsyYG0
+- https://www.reddit.com/r/joinrobin/comments/4cz32p/comprehensive_spamblocking_scripts_for_web/
 
